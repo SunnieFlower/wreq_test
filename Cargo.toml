@@ -1,0 +1,9 @@
+[package]
+name = "wreq-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+wreq = "5"
+wreq-util = "2"
